@@ -4,9 +4,6 @@ Example implementation of a CTD^2 BeatAML solution.
 
 ## To Train a model
 
-- Put training files in `training/`
-  - At least rnaseq.csv, input.csv, aucs.csv
-  - These files are described in [the wiki](https://www.synapse.org/#!Synapse:syn20940518/wiki/596265)
 - Run Jupyter with `docker run -p 8888:8888 -v "$1:/home/jovyan" jupyter/scipy-notebook`
   - Stdout will include a URL to open the notebook
 - Go through the steps in `index.ipynb`

@@ -7,6 +7,9 @@ output/*
 .ipython
 .local
 *.swp
+.synapseCache/
+.jupyter/
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

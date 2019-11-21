@@ -1,2 +1,5 @@
 training/
 output/
+
+.synapseCache/
+.jupyter/
