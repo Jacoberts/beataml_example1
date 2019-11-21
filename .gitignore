@@ -1,7 +1,8 @@
 # Don't put our data directories into git
-training/
-model/
-output/
+training/*
+model/*
+output/*
+!.gitignore
 
 .ipython
 .local
