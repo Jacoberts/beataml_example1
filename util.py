@@ -43,4 +43,4 @@ def RunPredictions(model_dir, input_dir, output_dir):
   aucs = (
       pandas.read_csv(os.path.join(input_dir, 'input.csv'))
       .join(specimen_to_auc, on='lab_id'))
-  aucs.to_csv(os.path.join(output_dir, 'aucs.csv'), index=False)
+  aucs.to_csv(os.path.join(output_dir, 'predictions.csv'), index=False)
