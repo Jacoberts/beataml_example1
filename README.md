@@ -4,7 +4,7 @@ Example implementation of a solution to subchallenge 1 of the BeatAML CTD^2 DREA
 
 ## To Train a model
 
-- Run Jupyter with `docker run -p 8888:8888 -v "$1:/home/jovyan" jupyter/scipy-notebook`
+- Run Jupyter with `docker run -p 8888:8888 -v "$PWD:/home/jovyan" jupyter/scipy-notebook`
   - Stdout will include a URL to open the notebook
 - Go through the steps in `index.ipynb`
   - The model will be stored in `model/` in two files: `pkl_1.csv` and `pkl_2.csv`
